@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PAGES>
+    <PAGE>
+        <heading>The heading of the page 1</heading>
+        <bodytext>The body text of the page 1</bodytext>
+        <imgurl>https://via.placeholder.com/150/0000FF/808080</imgurl>
+    </PAGE>
+    <PAGE>
+        <heading>The heading of the page 2</heading>
+        <bodytext>The body text of the page 2</bodytext>
+        <imgurl>https://via.placeholder.com/150/fff00FF/808080</imgurl>
+    </PAGE>
+    <PAGE>
+        <heading>The heading of the page 3</heading>
+        <bodytext>The body text of the page 4</bodytext>
+        <imgurl>https://via.placeholder.com/150/f000FF/808080</imgurl>
+    </PAGE>
+</PAGES>

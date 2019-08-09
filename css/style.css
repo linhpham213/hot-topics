@@ -1,0 +1,219 @@
+/*For mobile*/
+
+/*Home Page*/
+body {
+    margin: 0;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+.heading {
+    text-align: center;
+    padding: 30px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+}
+h1{
+    font-size: 3.5em;
+    font-family: 'Libre Caslon Text', serif;
+}
+h2 {
+    text-align: center;
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 2em;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #d5bf7b;
+    width: 100%;
+}
+p.tag-line {
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: bold;
+}
+.page {
+    padding: 10px;
+}
+.page-2 {
+    padding: 10px;
+}
+.page p {
+    margin-top: 0;
+}
+figure {
+    margin: 0;
+    text-align: center;
+}
+figure img {
+    max-width: 100%;
+    width: 100%;
+}
+figcaption {
+    text-align: center;
+    padding: 15px;
+}
+nav ul {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0;
+}
+nav li {
+    list-style: none;
+    background-color: #cea477;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    color: white;
+}
+
+/*Porfolio Page*/
+
+
+/*Footer*/
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer ul {
+    padding: 0;
+}
+footer ul li{
+    display: inline;
+}
+footer li {
+    list-style: none;
+    font-size: 3em;
+    padding: 20px;
+}
+footer a {
+    color: #d5bf7b;
+}
+footer a:hover {
+    color: white;
+}
+
+/*Tablet view*/
+@media screen and (max-width: 79rem) and (min-width: 35rem){
+    body {
+        font-size: 1rem;
+    }
+    nav ul li {
+        display: inline;
+    }
+    nav li {
+        padding-left: 70px;
+        padding-right: 70px;
+        margin-left: 10px;
+    }
+    .page figure {
+        float: left;
+        width: 38%;
+    }
+    figure img {
+    max-width: 100%;
+    }
+    .page p{
+        width: 60%;
+        float: right;
+    }
+    .page hr {
+        clear: both;
+    }
+    .page br {
+        clear: both;
+    }
+    .page-2 .image {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image figure {
+        width: 50%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    h2 {
+        clear: both;
+    }
+    footer {
+        clear:both;
+    }
+}
+
+/*Destop View*/
+@media screen and (min-width: 80rem){
+    body {
+        font-size: 1.25rem;
+    }
+    .heading {
+        text-align: left;
+        display:flex
+    }
+    .tag-line {
+        align-self: center;
+        padding-left: 40px;
+    }
+    nav ul {
+        text-align: left;
+    }
+    h2 {
+        text-align: left;
+    }
+    nav ul li {
+        display: inline;
+    }
+    nav li {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 10px;
+    }
+    .page {
+    padding: 15px;
+    }
+    .page-2 {
+        padding: 15px;
+    }
+    .page figure {
+        float: left;
+        width: 38%;
+    }
+    figure img {
+    max-width: 100%;
+    }
+    .page p{
+        width: 60%;
+        float: right;
+    }
+    .page hr {
+        clear: both;
+    }
+    .page br {
+        clear: both;
+    }
+    .page-2 .image {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .image figure {
+        width: 33.33%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    h2 {
+        clear: both;
+    }
+    footer {
+        clear:both;
+        text-align: left;
+    }
+}

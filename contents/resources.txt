@@ -1,0 +1,13 @@
+DataResources:
+        heading: "The heading of the page 1",
+        bodyText: "The body text of the page 1",
+        imgUrl: "https://via.placeholder.com/150/0000FF/808080"
+        
+        heading: "The heading of the page 1",
+        bodyText: "The body text of the page 1",
+        imgUrl: "https://via.placeholder.com/150/fff00FF/808080"
+        
+        heading: "The heading of the page 1",
+        bodyText: "The body text of the page 1",
+        imgUrl: "https://via.placeholder.com/150/f000FF/808080"
+   
